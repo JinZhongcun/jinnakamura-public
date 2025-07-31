@@ -1,0 +1,7 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="200" y="135" text-anchor="middle" dominant-baseline="central" 
+        font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#333333">
+    GENIAC
+  </text>
+</svg>
