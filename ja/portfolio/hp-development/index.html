@@ -518,7 +518,7 @@ selectedCardDisplays.forEach(display =&gt; &#123;
 				const clickedCard = document.querySelector(`.insight-card[data-href="#${targetId}"]`);
 				
 				// URLハッシュを更新
-				window.history.pushState(null, null, `#${targetId}`);
+				window.history.pushState(null, null, `${window.location.pathname}#${targetId}`);
 				
 				if (clickedCard) {
 					// カード選択演出を開始
@@ -593,7 +593,7 @@ selectedCardDisplays.forEach(display =&gt; &#123;
 				                   document.querySelector(`.topic-tile [data-href="#${targetId}"]`)?.closest('.topic-tile');
 				
 				// URLハッシュを更新
-				window.history.pushState(null, null, `#${targetId}`);
+				window.history.pushState(null, null, `${window.location.pathname}#${targetId}`);
 				
 				if (clickedCard) {
 					// シンプルなカード選択演出
